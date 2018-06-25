@@ -1,0 +1,50 @@
+body {
+    width: 800px; text-align: center; margin: 0em 0 0 0; vertical-align: middle; font-family: "Verdana";
+}
+
+#dungeon {
+    width: 640px;
+    height: 640px;
+    margin: auto;
+    border-collapse: collapse;
+    background-color: white;
+    padding: 0px;
+}
+
+/* http://iros.github.io/patternfills/sample_css.html */
+td {
+    min-width: 32px;
+    height: 32px;
+    padding: 0px;
+    border-collapse: collapse;
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSc1JyBoZWlnaHQ9JzUnPgo8cmVjdCB3aWR0aD0nNScgaGVpZ2h0PSc1JyBmaWxsPScjZmZmJy8+CjxyZWN0IHdpZHRoPScxJyBoZWlnaHQ9JzEnIGZpbGw9JyNjY2MnLz4KPC9zdmc+"); background-repeat: repeat;
+}
+
+/* http://game-icons.net/tags/head.html */
+.viking {
+    background-image: url(../images/viking-head.svg);
+}
+
+.spectre {
+    background-image: url(../images/spectre.svg);
+}
+
+.wyvern {
+    background-image: url(../images/wyvern.svg);
+}
+
+.chest {
+    background-image: url(../images/chest.svg);
+}
+
+.attack {
+    background-image: url(../images/cross-mark.svg);
+}
+
+.fog {
+    background-image: none !important;
+}
+
+.wall {
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSc4JyBoZWlnaHQ9JzgnPgogIDxyZWN0IHdpZHRoPSc4JyBoZWlnaHQ9JzgnIGZpbGw9JyNmZmYnLz4KICA8cGF0aCBkPSdNMCAwTDggOFpNOCAwTDAgOFonIHN0cm9rZS13aWR0aD0nMC41JyBzdHJva2U9JyNhYWEnLz4KPC9zdmc+Cg=="); background-repeat: repeat;
+};
